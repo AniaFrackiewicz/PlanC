@@ -15,6 +15,7 @@
 .tus-page section{box-sizing:border-box}
 #inne-zajecia p,#inne-zajecia li,#inne-zajecia h3,#inne-zajecia h4{line-height:1.35}
 #inne-zajecia li{margin:0 !important;padding:0 !important}
+@media (min-width:700px){.tus-page .cta-line{white-space:nowrap}}
 #inne-zajecia ul{margin-top:8px !important}
 .tus-page .inne-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 @media (max-width:700px){.tus-page .inne-grid{grid-template-columns:1fr}}
@@ -275,8 +276,8 @@
       </div>
     </div>
     <div style="margin-top:20px;background:#2B2350;color:#FFFFFF;border-radius:32px;padding:40px 36px;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center">
-      <div style="max-width:520px">
-        <h3 style="font-size:32px;color:#FFFFFF">Chcesz zapisać dziecko na któreś z tych zajęć?</h3>
+      <div style="flex:1 1 100%">
+        <h3 class="cta-line" style="font-size:32px;color:#FFFFFF">Chcesz zapisać dziecko na któreś z tych zajęć?</h3>
         <p style="margin:10px 0 0">Zadzwoń lub napisz, a odpowiem na wszystkie pytania.</p>
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:12px">
